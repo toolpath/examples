@@ -10,7 +10,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@toolpath/api": "workspace:*"
+    "@toolpath/api": "^0.11.0"
   },
   "devDependencies": {
     "@types/node": "24.10.1",

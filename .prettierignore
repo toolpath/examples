@@ -1,0 +1,4 @@
+pnpm-lock.yaml
+python/
+# Sanitized Engine responses, kept byte-identical to what the API returned.
+react-viewer/fixtures/
