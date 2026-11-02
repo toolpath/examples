@@ -4,8 +4,10 @@ version = "0.0.0"
 requires-python = ">=3.11"
 dependencies = ["toolpath"]
 
+# The Python SDK is not on PyPI. Each version ships as a wheel on a GitHub
+# release of toolpath/ui-packages, tagged `python-sdk-v<version>`.
 [tool.uv.sources]
-toolpath = { path = "../../packages/sdk-python" }
+toolpath = { url = "https://github.com/toolpath/ui-packages/releases/download/python-sdk-v0.11.0/toolpath-0.11.0-py3-none-any.whl" }
 
 [tool.ruff]
 line-length = 88

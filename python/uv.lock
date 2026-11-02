@@ -82,10 +82,13 @@ wheels = [
 [[package]]
 name = "toolpath"
 version = "0.11.0"
-source = { directory = "../../packages/sdk-python" }
+source = { url = "https://github.com/toolpath/ui-packages/releases/download/python-sdk-v0.11.0/toolpath-0.11.0-py3-none-any.whl" }
 dependencies = [
     { name = "attrs" },
     { name = "httpx" },
+]
+wheels = [
+    { url = "https://github.com/toolpath/ui-packages/releases/download/python-sdk-v0.11.0/toolpath-0.11.0-py3-none-any.whl", hash = "sha256:378f6c3d135bbe5634cb8556580c3f2b10715a8334aca975411a5319f463f336" },
 ]
 
 [package.metadata]
@@ -103,7 +106,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "toolpath", directory = "../../packages/sdk-python" }]
+requires-dist = [{ name = "toolpath", url = "https://github.com/toolpath/ui-packages/releases/download/python-sdk-v0.11.0/toolpath-0.11.0-py3-none-any.whl" }]
 
 [[package]]
 name = "typing-extensions"
