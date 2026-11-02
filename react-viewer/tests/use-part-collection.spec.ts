@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { expect, test, type Route } from '@playwright/test'
 
-const fixture = new URL('../../../packages/viewer/fixtures/', import.meta.url)
+const fixture = new URL('../fixtures/', import.meta.url)
 const report = JSON.parse(await readFile(new URL('reports/local-0.3.0-cube.json', fixture), 'utf8'))
 const mesh = await readFile(new URL('mesh/local-0.3.0-cube.glb', fixture))
 

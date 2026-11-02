@@ -43,7 +43,7 @@ import { ExplodeOptions, OnAssembled, useExampleExplode } from './explode/exampl
 import type { FeatureSheet } from '@toolpath/dfm/model'
 import { partFromFiles } from './local-part'
 import { type ExampleModel, MODELS, modelFromQuery } from './models'
-import stockMeshFixture from '../../../packages/viewer/fixtures/mesh/stock-box.json'
+import stockMeshFixture from '../fixtures/mesh/stock-box.json'
 import './style.css'
 
 /**
