@@ -1,6 +1,6 @@
 # TypeScript part analysis
 
-This command uses the local `@toolpath/api` workspace package to create a part, upload a STEP file,
+This command uses the published `@toolpath/api` package to create a part, upload a STEP file,
 start analysis, listen until the report is ready, fetch feature datasheets, and print the complete
 report as JSON. `waitForJob` follows the job's event stream for progress rather than polling.
 

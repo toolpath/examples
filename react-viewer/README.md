@@ -22,15 +22,14 @@ the package's public API.
 
 ```bash
 pnpm install --frozen-lockfile
-pnpm --filter @toolpath/example-react-viewer... build
 pnpm --filter @toolpath/example-react-viewer dev
 ```
 
-Run these commands from the repository root with its pinned Node/pnpm toolchain.
-The build command includes the example's workspace dependencies; installation alone
-does not create their `dist` output.
-
-To see changes to `packages/viewer` while the example runs, keep `pnpm --filter @toolpath/viewer build:watch` going beside it.
+Run these commands from the repository root with its pinned Node/pnpm toolchain
+(`.tool-versions`). The example uses the published
+[`@toolpath/viewer`](https://www.npmjs.com/package/@toolpath/viewer) and
+[`@toolpath/dfm`](https://www.npmjs.com/package/@toolpath/dfm) packages; their source is in
+[toolpath/ui-packages](https://github.com/toolpath/ui-packages/tree/main/packages/viewer).
 
 ## Explode
 
@@ -71,8 +70,7 @@ animation updates React readouts at most ten times per second.
 
 Layouts exceeding 512 groups or 1,000,000 copied triangles leave the original part visible.
 The same rendering budget applies to both color modes. These are example policy limits, not
-machining decisions made by the package. The new public exports need the next viewer release;
-they are not available in published version 2.3.3.
+machining decisions made by the package.
 
 After building the example, run its explode checks on a separate preview port:
 
@@ -91,7 +89,8 @@ makes no Engine requests and a reload forgets them.
 
 The opt-in browser stress tests verify clearance, deterministic layout, feature-level picking,
 selection preservation when recoloring, camera preservation, and repeated collapse/reopen.
-The package's opt-in unit test verifies every copied triangle's position and source identity.
+The [viewer package's](https://github.com/toolpath/ui-packages/tree/main/packages/viewer) opt-in
+unit test verifies every copied triangle's position and source identity.
 `explode-primitives.spec.ts` exercises the public renderer with application-defined IDs,
 repeated surfaces, arbitrary translations, source-coordinate picks, and a bounded draw count.
 The toolbar tests cover buffer reuse and shader preparation.
