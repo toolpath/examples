@@ -6,6 +6,8 @@ __pycache__/
 .ruff_cache/
 react-viewer/test-results/
 react-viewer/playwright-report/
+multi-body/test-results/
+multi-body/playwright-report/
 
 # Never commit environment files. Keep documented templates trackable.
 **/*.env*
