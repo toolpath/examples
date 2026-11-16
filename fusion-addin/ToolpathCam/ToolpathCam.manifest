@@ -1,0 +1,13 @@
+{
+	"autodeskProduct": "Fusion360",
+	"type": "addin",
+	"id": "897fae4f-d788-4516-87cb-6457b2ed2f6d",
+	"author": "Toolpath",
+	"description": {
+		"": "Toolpath CAM: send a body to Toolpath's CAM API, pick its machining directions, and import the setups and toolpaths."
+	},
+	"version": "0.1.0",
+	"runOnStartup": true,
+	"supportedOS": "windows|mac",
+	"editEnabled": true
+}

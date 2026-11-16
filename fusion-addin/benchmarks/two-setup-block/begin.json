@@ -1,0 +1,55 @@
+{
+  "importId": "import-1",
+  "jobId": "job-1",
+  "partId": "part-1",
+  "planId": "plan-1",
+  "partName": "Block",
+  "bodyToken": "body-token",
+  "documentId": "doc-1",
+  "stock": {
+    "shape": "box",
+    "frame": {
+      "location": { "x": 0, "y": 0, "z": 0 },
+      "axis": { "x": 0, "y": 0, "z": 1 },
+      "refDirection": { "x": 1, "y": 0, "z": 0 }
+    },
+    "lower": { "x": -1, "y": -1, "z": -1 },
+    "upper": { "x": 41, "y": 31, "z": 21 }
+  },
+  "setups": [
+    {
+      "idx": 0,
+      "direction": { "x": 0, "y": 0, "z": 1 },
+      "actions": [
+        {
+          "idx": 0,
+          "actionId": "a-0-0",
+          "intent": "Facing",
+          "toolName": "50 mm face mill",
+          "machiningTime": 42.4
+        },
+        {
+          "idx": 1,
+          "actionId": "a-0-1",
+          "intent": "RoughingPocket",
+          "toolName": "6 mm flat endmill",
+          "machiningTime": 185
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "direction": { "x": 0, "y": 0, "z": -1 },
+      "actions": [
+        {
+          "idx": 0,
+          "actionId": "a-1-0",
+          "intent": "Facing",
+          "toolName": "50 mm face mill",
+          "machiningTime": null
+        }
+      ]
+    },
+    { "idx": 2, "direction": null, "actions": [] }
+  ]
+}

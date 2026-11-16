@@ -1,0 +1,37 @@
+{
+  "name": "@toolpath/example-fusion-addin",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Boilerplate Autodesk Fusion add-in that sends a body through Toolpath's CAM API and imports the setups and toolpaths",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "pnpm check-types && vite build",
+    "check-types": "tsc --noEmit",
+    "lint": "uvx --from ruff==0.16.2 ruff check ToolpathCam bin",
+    "test": "vitest run && uvx --from pytest==9.1.1 pytest"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "2.1.10",
+    "@react-three/drei": "10.7.8",
+    "@react-three/fiber": "9.7.0",
+    "@toolpath/api": "^0.19.0",
+    "@toolpath/ui": "^1.6.1",
+    "@toolpath/viewer": "^3.5.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "24.10.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "0.185.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vite": "8.2.1",
+    "vitest": "4.1.10"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "app_url": null,
+  "api_url": "https://api.toolpath.com",
+  "portal_url": "https://portal.toolpath.com",
+  "port": 47831,
+  "max_sketch_points_per_action": 2000,
+  "sketch_links": true,
+  "debug": false,
+  "runs_dir": null
+}

@@ -34,6 +34,8 @@ jobs:
       - run: pnpm check-types
       - run: pnpm build
       - run: pnpm --filter @toolpath/example-typescript test
+      # The add-in's Python tests run in the python job.
+      - run: pnpm --filter @toolpath/example-fusion-addin exec vitest run
       - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
         with:
           path: ~/.cache/ms-playwright
@@ -54,4 +56,7 @@ jobs:
           python-version: '3.11'
       - run: uv run --locked --project python python -m compileall -q python/src
       - run: uv run --locked --project python python -I -c "import toolpath"
-      - run: uvx --from ruff==0.16.2 ruff check python
+      - run: uvx --from ruff==0.16.2 ruff check python fusion-addin/ToolpathCam fusion-addin/bin
+      - run: uvx --from pytest==9.1.1 pytest
+        working-directory: fusion-addin
+      - run: python fusion-addin/bin/run-import.py fusion-addin/benchmarks/two-setup-block --check

@@ -1,0 +1,13 @@
+# Settings for the add-in's Python checks only; the add-in itself installs nothing.
+[tool.pytest.ini_options]
+testpaths = ["ToolpathCam/tests"]
+python_files = ["test-*.py"]
+addopts = "--import-mode=importlib"
+# `lib` imports as a top-level package, as `bin/run-import.py` does.
+pythonpath = ["ToolpathCam"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["F", "I", "UP"]

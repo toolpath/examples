@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@import '@toolpath/ui/theme.css';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  /* Fusion's webview rubber-bands the whole page otherwise. */
+  overscroll-behavior: none;
+  overflow: hidden;
+}
