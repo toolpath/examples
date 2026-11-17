@@ -13,7 +13,7 @@
     "build": "pnpm -r build",
     "check-types": "pnpm -r check-types",
     "test": "pnpm -r test",
-    "lint": "eslint . --max-warnings=0 && uvx --from ruff==0.16.2 ruff check python",
+    "lint": "eslint . --max-warnings=0 && uvx --from ruff==0.16.2 ruff check python fusion-addin/ToolpathCam fusion-addin/bin",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
