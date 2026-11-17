@@ -43,6 +43,7 @@ jobs:
       - run: pnpm --filter @toolpath/example-react-viewer exec playwright install chromium
       # The build above produced the preview the suite serves.
       - run: pnpm --filter @toolpath/example-react-viewer exec playwright test
+      - run: pnpm --filter @toolpath/example-multi-body exec playwright test
 
   python:
     runs-on: ubuntu-24.04

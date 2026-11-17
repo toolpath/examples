@@ -1,4 +1,5 @@
 packages:
   - typescript
   - react-viewer
+  - multi-body
   - fusion-addin
