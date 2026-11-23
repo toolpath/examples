@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+@import '@toolpath/ui/theme.css';
+
+/*
+  Two type styles only: `text-sm` for names and headings, `text-xs` for everything else.
+  Colour, icons, cards and badges do the rest of the separating.
+*/
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/*
+  The page never scrolls; its panels do. Each scrolling panel is `relative` too, so the
+  screen-reader-only labels (`sr-only`, absolutely placed) stay inside it instead of
+  stretching the page.
+*/
+body {
+  overflow: hidden;
+}
+
+/* Tailwind v4 leaves buttons with the arrow cursor; every button here is clickable, so point. */
+@layer base {
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']) {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,2098 @@
+{
+  "partId": "f42e5afa-6d0e-489d-837e-dc2c2ae38690",
+  "filename": "motor_mount_bracket_with_slot.step",
+  "reportId": "0eef86b7-1d36-45b2-8f63-b935e1b1a669",
+  "jobId": "889dc8de-f4a2-4dca-bed1-a640129c39b1",
+  "kernelVersion": "0.36.0",
+  "preparationId": "69ab3cef3e03195b",
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "regions": [
+    {
+      "idx": 0,
+      "splitOrigin": 0,
+      "shapeKind": "Cylinder",
+      "area": 2152.965800486065,
+      "triangleStart": 0,
+      "triangleEnd": 138
+    },
+    {
+      "idx": 1,
+      "splitOrigin": 1,
+      "shapeKind": "Plane",
+      "area": 25.077928370859595,
+      "triangleStart": 138,
+      "triangleEnd": 273
+    },
+    {
+      "idx": 2,
+      "splitOrigin": 2,
+      "shapeKind": "Cylinder",
+      "area": 659.7832334393628,
+      "triangleStart": 273,
+      "triangleEnd": 405
+    },
+    {
+      "idx": 3,
+      "splitOrigin": 3,
+      "shapeKind": "Cylinder",
+      "area": 493.9199287913029,
+      "triangleStart": 405,
+      "triangleEnd": 569
+    },
+    {
+      "idx": 4,
+      "splitOrigin": 4,
+      "shapeKind": "Plane",
+      "area": 166.98751093256854,
+      "triangleStart": 569,
+      "triangleEnd": 781
+    },
+    {
+      "idx": 5,
+      "splitOrigin": 5,
+      "shapeKind": "Plane",
+      "area": 25.077928370859826,
+      "triangleStart": 781,
+      "triangleEnd": 916
+    },
+    {
+      "idx": 6,
+      "splitOrigin": 6,
+      "shapeKind": "Cylinder",
+      "area": 659.7832334393635,
+      "triangleStart": 916,
+      "triangleEnd": 1048
+    },
+    {
+      "idx": 7,
+      "splitOrigin": 7,
+      "shapeKind": "Cylinder",
+      "area": 493.9199287913064,
+      "triangleStart": 1048,
+      "triangleEnd": 1212
+    },
+    {
+      "idx": 8,
+      "splitOrigin": 8,
+      "shapeKind": "Plane",
+      "area": 166.98751093256797,
+      "triangleStart": 1212,
+      "triangleEnd": 1426
+    },
+    {
+      "idx": 9,
+      "splitOrigin": 9,
+      "shapeKind": "Cylinder",
+      "area": 269.12123168759643,
+      "triangleStart": 1426,
+      "triangleEnd": 1565
+    },
+    {
+      "idx": 10,
+      "splitOrigin": 10,
+      "shapeKind": "Cylinder",
+      "area": 6665.325670077107,
+      "triangleStart": 1565,
+      "triangleEnd": 1675
+    },
+    {
+      "idx": 11,
+      "splitOrigin": 11,
+      "shapeKind": "Plane",
+      "area": 9290.304000000067,
+      "triangleStart": 1675,
+      "triangleEnd": 1734
+    },
+    {
+      "idx": 12,
+      "splitOrigin": 12,
+      "shapeKind": "Plane",
+      "area": 27768.529459931302,
+      "triangleStart": 1734,
+      "triangleEnd": 2609
+    },
+    {
+      "idx": 13,
+      "splitOrigin": 13,
+      "shapeKind": "Plane",
+      "area": 667.3379932360127,
+      "triangleStart": 2609,
+      "triangleEnd": 2621
+    },
+    {
+      "idx": 14,
+      "splitOrigin": 14,
+      "shapeKind": "Plane",
+      "area": 4100.120779641403,
+      "triangleStart": 2621,
+      "triangleEnd": 2642
+    },
+    {
+      "idx": 15,
+      "splitOrigin": 15,
+      "shapeKind": "Cylinder",
+      "area": 4559.8098484079355,
+      "triangleStart": 2642,
+      "triangleEnd": 2760
+    },
+    {
+      "idx": 16,
+      "splitOrigin": 16,
+      "shapeKind": "Plane",
+      "area": 4100.120779641256,
+      "triangleStart": 2760,
+      "triangleEnd": 2781
+    },
+    {
+      "idx": 17,
+      "splitOrigin": 17,
+      "shapeKind": "Plane",
+      "area": 667.3379932361597,
+      "triangleStart": 2781,
+      "triangleEnd": 2793
+    },
+    {
+      "idx": 18,
+      "splitOrigin": 18,
+      "shapeKind": "Plane",
+      "area": 25.599277212944457,
+      "triangleStart": 2793,
+      "triangleEnd": 2906
+    },
+    {
+      "idx": 19,
+      "splitOrigin": 19,
+      "shapeKind": "Cylinder",
+      "area": 584.9741360492421,
+      "triangleStart": 2906,
+      "triangleEnd": 3026
+    },
+    {
+      "idx": 20,
+      "splitOrigin": 20,
+      "shapeKind": "Cylinder",
+      "area": 949.5205655985962,
+      "triangleStart": 3026,
+      "triangleEnd": 3132
+    },
+    {
+      "idx": 21,
+      "splitOrigin": 21,
+      "shapeKind": "Cylinder",
+      "area": 389.98275736617734,
+      "triangleStart": 3132,
+      "triangleEnd": 3252
+    },
+    {
+      "idx": 22,
+      "splitOrigin": 22,
+      "shapeKind": "Cylinder",
+      "area": 389.9827573661769,
+      "triangleStart": 3252,
+      "triangleEnd": 3372
+    },
+    {
+      "idx": 23,
+      "splitOrigin": 23,
+      "shapeKind": "Cylinder",
+      "area": 2027.7929510344013,
+      "triangleStart": 3372,
+      "triangleEnd": 3660
+    },
+    {
+      "idx": 24,
+      "splitOrigin": 24,
+      "shapeKind": "Plane",
+      "area": 9913.244279551653,
+      "triangleStart": 3660,
+      "triangleEnd": 4878
+    },
+    {
+      "idx": 25,
+      "splitOrigin": 25,
+      "shapeKind": "Cylinder",
+      "area": 7448.322112376696,
+      "triangleStart": 4878,
+      "triangleEnd": 5298
+    },
+    {
+      "idx": 26,
+      "splitOrigin": 26,
+      "shapeKind": "Plane",
+      "area": 855.3693955318284,
+      "triangleStart": 5298,
+      "triangleEnd": 5304
+    },
+    {
+      "idx": 27,
+      "splitOrigin": 27,
+      "shapeKind": "Plane",
+      "area": 855.369395531829,
+      "triangleStart": 5304,
+      "triangleEnd": 5307
+    },
+    {
+      "idx": 28,
+      "splitOrigin": 28,
+      "shapeKind": "Cylinder",
+      "area": 2808.507825933107,
+      "triangleStart": 5307,
+      "triangleEnd": 5466
+    },
+    {
+      "idx": 29,
+      "splitOrigin": 29,
+      "shapeKind": "Plane",
+      "area": 38.48283945161502,
+      "triangleStart": 5466,
+      "triangleEnd": 5621
+    },
+    {
+      "idx": 30,
+      "splitOrigin": 30,
+      "shapeKind": "Cylinder",
+      "area": 1256.279217163925,
+      "triangleStart": 5621,
+      "triangleEnd": 5773
+    },
+    {
+      "idx": 31,
+      "splitOrigin": 31,
+      "shapeKind": "Cylinder",
+      "area": 2808.5078259331067,
+      "triangleStart": 5773,
+      "triangleEnd": 5932
+    },
+    {
+      "idx": 32,
+      "splitOrigin": 32,
+      "shapeKind": "Plane",
+      "area": 38.48283945161496,
+      "triangleStart": 5932,
+      "triangleEnd": 6087
+    },
+    {
+      "idx": 33,
+      "splitOrigin": 33,
+      "shapeKind": "Cylinder",
+      "area": 1256.2792171639244,
+      "triangleStart": 6087,
+      "triangleEnd": 6239
+    },
+    {
+      "idx": 34,
+      "splitOrigin": 34,
+      "shapeKind": "Plane",
+      "area": 267.09198556596664,
+      "triangleStart": 6239,
+      "triangleEnd": 6487
+    },
+    {
+      "idx": 35,
+      "splitOrigin": 35,
+      "shapeKind": "Cylinder",
+      "area": 5278.7703353034485,
+      "triangleStart": 6487,
+      "triangleEnd": 6677
+    },
+    {
+      "idx": 36,
+      "splitOrigin": 36,
+      "shapeKind": "Cylinder",
+      "area": 550.3765092043107,
+      "triangleStart": 6677,
+      "triangleEnd": 6836
+    },
+    {
+      "idx": 37,
+      "splitOrigin": 37,
+      "shapeKind": "Plane",
+      "area": 267.09198556596664,
+      "triangleStart": 6836,
+      "triangleEnd": 7086
+    },
+    {
+      "idx": 38,
+      "splitOrigin": 38,
+      "shapeKind": "Cylinder",
+      "area": 5278.770335303447,
+      "triangleStart": 7086,
+      "triangleEnd": 7276
+    },
+    {
+      "idx": 39,
+      "splitOrigin": 39,
+      "shapeKind": "Cylinder",
+      "area": 550.3765092043105,
+      "triangleStart": 7276,
+      "triangleEnd": 7435
+    },
+    {
+      "idx": 40,
+      "splitOrigin": 40,
+      "shapeKind": "Plane",
+      "area": 267.0919855659667,
+      "triangleStart": 7435,
+      "triangleEnd": 7685
+    },
+    {
+      "idx": 41,
+      "splitOrigin": 41,
+      "shapeKind": "Cylinder",
+      "area": 5278.770335303429,
+      "triangleStart": 7685,
+      "triangleEnd": 7875
+    },
+    {
+      "idx": 42,
+      "splitOrigin": 42,
+      "shapeKind": "Cylinder",
+      "area": 550.3765092043241,
+      "triangleStart": 7875,
+      "triangleEnd": 8034
+    },
+    {
+      "idx": 43,
+      "splitOrigin": 43,
+      "shapeKind": "Plane",
+      "area": 267.0919855659667,
+      "triangleStart": 8034,
+      "triangleEnd": 8284
+    },
+    {
+      "idx": 44,
+      "splitOrigin": 44,
+      "shapeKind": "Cylinder",
+      "area": 5278.770335303427,
+      "triangleStart": 8284,
+      "triangleEnd": 8474
+    },
+    {
+      "idx": 45,
+      "splitOrigin": 45,
+      "shapeKind": "Cylinder",
+      "area": 550.3765092043241,
+      "triangleStart": 8474,
+      "triangleEnd": 8633
+    },
+    {
+      "idx": 46,
+      "splitOrigin": 46,
+      "shapeKind": "Plane",
+      "area": 8467.724999999922,
+      "triangleStart": 8633,
+      "triangleEnd": 8658
+    },
+    {
+      "idx": 47,
+      "splitOrigin": 47,
+      "shapeKind": "Plane",
+      "area": 39417.32592607078,
+      "triangleStart": 8658,
+      "triangleEnd": 11091
+    },
+    {
+      "idx": 48,
+      "splitOrigin": 48,
+      "shapeKind": "Plane",
+      "area": 8856.74101493434,
+      "triangleStart": 11091,
+      "triangleEnd": 11218
+    },
+    {
+      "idx": 49,
+      "splitOrigin": 49,
+      "shapeKind": "Plane",
+      "area": 23225.75999999999,
+      "triangleStart": 11218,
+      "triangleEnd": 11284
+    },
+    {
+      "idx": 50,
+      "splitOrigin": 50,
+      "shapeKind": "Plane",
+      "area": 979.730779725882,
+      "triangleStart": 11284,
+      "triangleEnd": 11298
+    },
+    {
+      "idx": 51,
+      "splitOrigin": 51,
+      "shapeKind": "Plane",
+      "area": 4030.0317944870458,
+      "triangleStart": 11298,
+      "triangleEnd": 11396
+    },
+    {
+      "idx": 52,
+      "splitOrigin": 52,
+      "shapeKind": "Plane",
+      "area": 18780.78060791986,
+      "triangleStart": 11396,
+      "triangleEnd": 13180
+    }
+  ],
+  "features": [
+    {
+      "featureId": "8177ada7-ffc6-492f-a5d0-8282b0939c96",
+      "featureTag": "1a5a2c829aaf72",
+      "regionIdxs": [26],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "ed454119-0000-451a-9700-66b808f840c5",
+      "featureTag": "bdbdd748970074d",
+      "regionIdxs": [47, 48, 50, 51, 52],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "14bd136c-d481-4eb1-b2db-489c88622eed",
+      "featureTag": "f31fe0177d550da",
+      "regionIdxs": [50],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "4d67811c-5156-4849-94a0-00a80ced7041",
+      "featureTag": "10e7f6998515f5fc",
+      "regionIdxs": [34, 35],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "84b62467-05cd-4e87-b50f-b5e39913e1f5",
+      "featureTag": "1349b49b7f6e8f5a",
+      "regionIdxs": [50],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "dc70ca55-2338-4ced-9c9d-30d0fe884ddb",
+      "featureTag": "161ab638d9799310",
+      "regionIdxs": [37, 38],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "4bb7d593-ec24-45cd-815e-6b3839aa8360",
+      "featureTag": "1bd8dfe5804aff8d",
+      "regionIdxs": [10, 11, 12],
+      "featureType": "filleted_open_pocket",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "d12a71ce-71b9-4da7-8f38-ae403d6ed793",
+      "featureTag": "1c3be67ce8674a1c",
+      "regionIdxs": [40, 41],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "af41de8b-1a49-4090-929f-5cde49656ac0",
+      "featureTag": "1c9f536779f5c79b",
+      "regionIdxs": [14, 15, 16],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "9be0678e-f085-4ef7-97e4-23b395e14e2b",
+      "featureTag": "2190c58372c58adc",
+      "regionIdxs": [18, 19],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "9edbbab7-3446-496f-8d3b-ef49028886a2",
+      "featureTag": "2b8fb77c6386033c",
+      "regionIdxs": [24, 25],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "f5ca2b4f-e17a-45f7-acfd-81eb53651fe6",
+      "featureTag": "2f8f4b79909fccfc",
+      "regionIdxs": [28, 29],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "7e47c70c-76aa-4d17-9c15-6260c4ae0f98",
+      "featureTag": "2f97396311d85217",
+      "regionIdxs": [47],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "af465311-6f6c-4869-8564-d8bdf756bb57",
+      "featureTag": "33aeeffd19719097",
+      "regionIdxs": [47],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "f76d00b5-76d0-4ff7-8384-1acb7e91fa38",
+      "featureTag": "353eee1c2921cc86",
+      "regionIdxs": [39],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "ecac3f7f-2764-4d0c-8364-1260746a470b",
+      "featureTag": "35942d96c5c60376",
+      "regionIdxs": [23],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "c490bc03-9770-47f9-a664-3e00608a7ba0",
+      "featureTag": "36bb674936b3df98",
+      "regionIdxs": [49],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "8d432943-3124-4272-ba43-97b42f0922c7",
+      "featureTag": "3c91b0f5f3f76b06",
+      "regionIdxs": [39],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "0901109e-6093-47b3-abad-573e2410c4c4",
+      "featureTag": "3ce6f070909ba1f6",
+      "regionIdxs": [23],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "1ce7d639-5d10-417a-b157-5efd94734084",
+      "featureTag": "4c1c233d203e0042",
+      "regionIdxs": [0, 1],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "ff53b955-2c50-486e-b6da-4be88b1f8935",
+      "featureTag": "4e0a42db685626a6",
+      "regionIdxs": [47],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "d979f94d-0432-4b93-9842-7ea6ee3231b0",
+      "featureTag": "4f2756122440c9fc",
+      "regionIdxs": [52],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "d1be8de8-4642-4bad-bd35-517be6200dd6",
+      "featureTag": "533f0cac2bda087c",
+      "regionIdxs": [52],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "f528cefb-84ea-4ce7-8ab1-5a1d4ebd4338",
+      "featureTag": "55244a45d82e7b5b",
+      "regionIdxs": [42],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "c69b0823-0623-4bd3-a16e-958b8da7c5b2",
+      "featureTag": "55f968f85fc904b3",
+      "regionIdxs": [2],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "e88efda2-383c-4712-8584-6718ab3c4408",
+      "featureTag": "57f7cc97d9f4cb09",
+      "regionIdxs": [49],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "36fc6384-7fca-47cb-9b63-b059039aa9c9",
+      "featureTag": "58a24b8d133d38e9",
+      "regionIdxs": [17],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "9dc46f1c-f636-405c-97ae-4c17f5068a58",
+      "featureTag": "59f1ab827e2482ca",
+      "regionIdxs": [43, 44],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "c12a9cb8-2e78-4ef8-8a3c-1b1a96216024",
+      "featureTag": "5c770d1fa30419db",
+      "regionIdxs": [42],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "194d39d0-6938-41d0-a573-0927396e1f5f",
+      "featureTag": "5d4c2bd22a9ea333",
+      "regionIdxs": [2],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "e3b0261c-f4d2-4cd6-a074-62dc2147d468",
+      "featureTag": "5e962e3c58d0361b",
+      "regionIdxs": [14, 15, 16],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "43faf4f4-8cb5-4b5e-8ed1-7bb8c5d91f16",
+      "featureTag": "5f4a8f71a4ca6989",
+      "regionIdxs": [49],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "bfe2f143-cc8c-4ce1-8675-7fe387df220d",
+      "featureTag": "5ff50e66de12d769",
+      "regionIdxs": [17],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "e9895096-1ac4-4281-ac7d-c707573a47a2",
+      "featureTag": "6ac67c80c2a5fe4d",
+      "regionIdxs": [10, 11, 12],
+      "featureType": "filleted_open_pocket",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "ed6b033b-500b-4426-8eaa-8a516a5e827c",
+      "featureTag": "6dd176d64ef7ed11",
+      "regionIdxs": [5, 9],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "7f06b215-23eb-449a-8a87-7e967ab1ad3c",
+      "featureTag": "6fc46c96bd2ca1b2",
+      "regionIdxs": [31, 32],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "9d045455-10b8-4e19-846f-24a8ccbe3d75",
+      "featureTag": "7344215bff50190a",
+      "regionIdxs": [3, 4],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "f41ea53f-55d0-4bdd-a64c-9981139dea5f",
+      "featureTag": "755ee5ea23df6120",
+      "regionIdxs": [33],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "ce758f8b-f4f3-45aa-92e6-2916351a455f",
+      "featureTag": "7688f2c79f2c24fc",
+      "regionIdxs": [7, 8],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "80449f72-0377-4991-a7ec-f8af8bae8d0d",
+      "featureTag": "776e55167abbfe42",
+      "regionIdxs": [7, 8],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "596cae14-a1ef-4d0b-9bc4-b8771c4e46ee",
+      "featureTag": "785d07f973f7cc46",
+      "regionIdxs": [46],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "d3b1b0b4-3cf3-4312-824e-2d6fdf2deb75",
+      "featureTag": "7ab326821a980a34",
+      "regionIdxs": [3, 4],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "f3d6170c-f9be-4be1-a37e-706c6c4cdfa6",
+      "featureTag": "7cb1a8c3eeb4ffa0",
+      "regionIdxs": [33],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "225299c0-705c-48f8-bcc5-eeb2729a6148",
+      "featureTag": "7f87d931cf4c5d4c",
+      "regionIdxs": [31, 32],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "c09129a4-1c7c-400e-a151-631456a1af9f",
+      "featureTag": "7fafcad33ecd6ac6",
+      "regionIdxs": [46],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "89424359-3c10-4748-aa9f-6ae93d3a62a4",
+      "featureTag": "8e031e8025df4ed3",
+      "regionIdxs": [26],
+      "featureType": "slanted_face",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "8a4bd7d3-7ff2-4bcb-ba0f-c900379cd36b",
+      "featureTag": "92b09e712932c4b4",
+      "regionIdxs": [43, 44],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "0d52d080-6dc7-4285-8923-939533315868",
+      "featureTag": "9390857d8265edf8",
+      "regionIdxs": [13, 17, 26, 27, 46, 48, 49, 50, 51],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "9aabc3b4-ab17-4d90-bc6a-f0538e3cc1cb",
+      "featureTag": "95444213d2ec0ff5",
+      "regionIdxs": [36],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "314c021f-2de3-4826-b6c3-9f9935368474",
+      "featureTag": "9599818e6f9046e5",
+      "regionIdxs": [20],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "fbb6f122-47bb-4b7c-a7fc-261072c35b7f",
+      "featureTag": "97ed24a88660442b",
+      "regionIdxs": [51],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "8c8b6959-32e2-427e-911d-cfaa706a3bcd",
+      "featureTag": "98c2435b0dfacd83",
+      "regionIdxs": [27],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "d603c834-240c-431a-836a-23fa3ffa060f",
+      "featureTag": "9b2db15584bb9877",
+      "regionIdxs": [46],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "ecbed34f-ca1e-46ee-bad7-3ac1320f2d34",
+      "featureTag": "9c9704ed9dc1ae75",
+      "regionIdxs": [36],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "1a172681-21f8-4dab-9eae-25bc75b907bd",
+      "featureTag": "9cec44683a65e565",
+      "regionIdxs": [20],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "f547ac16-5241-4b9f-87fe-402433db1a18",
+      "featureTag": "9f3fe7825135e2ab",
+      "regionIdxs": [51],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "7cdcf763-7d38-4198-9e20-7078d775a5b8",
+      "featureTag": "a0150634d8d06c03",
+      "regionIdxs": [27],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "8ef2646d-e414-4fb9-ac9a-e4317a039f7f",
+      "featureTag": "af2caa09ce0b0d6b",
+      "regionIdxs": [51],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "396ff6c0-c06e-422a-9abf-f8d514291984",
+      "featureTag": "b2a0a5eb1044bf9c",
+      "regionIdxs": [14, 15, 16],
+      "featureType": "undercut_filleted_tslot",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "a0ba361a-4714-4587-ba44-531e5304bd85",
+      "featureTag": "b34460a3d5a44beb",
+      "regionIdxs": [51],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "541f415e-7d69-48d0-9113-2840841ac72f",
+      "featureTag": "b4e27a74f1ffb62d",
+      "regionIdxs": [52],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "f0a8f3b8-bb34-4847-b331-ac6a307682e2",
+      "featureTag": "b7fd208f83bf0e78",
+      "regionIdxs": [48],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "c2a1119a-39b1-48f9-a916-537f50544ca8",
+      "featureTag": "bc683265f2bb7162",
+      "regionIdxs": [28, 29],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "2a0cd829-288f-4468-8583-40c280f43666",
+      "featureTag": "bf4fe3694e94acf8",
+      "regionIdxs": [48],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "a923006b-fa27-4e56-bce8-e2c7e0dfc425",
+      "featureTag": "c067c6631fd53b22",
+      "regionIdxs": [24, 25],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "f2523ad6-c1d2-423f-8b4d-d4e94c8f16f3",
+      "featureTag": "c4c0a6856eaacc78",
+      "regionIdxs": [13, 17, 26, 27, 46, 48, 49, 50, 51],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "9a05f039-1805-476c-b4f4-d95c8d20856d",
+      "featureTag": "c89762358ae6cb1c",
+      "regionIdxs": [0, 1],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "f8bfd57e-e227-4500-9e61-a404b97d3df3",
+      "featureTag": "ca66b85c1095b382",
+      "regionIdxs": [18, 19],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "b6648f53-448e-46b6-b24c-dea9b3e62873",
+      "featureTag": "cf3ca5f0cb69d7b8",
+      "regionIdxs": [48],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "985cf809-7307-4f9d-a24f-81f23b360fbb",
+      "featureTag": "cfbb97629af3f442",
+      "regionIdxs": [40, 41],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "3f837129-8a55-4309-84af-55e1adf4a512",
+      "featureTag": "d3545c8ad3031638",
+      "regionIdxs": [48],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "cb06c333-581b-4324-99fc-661fdec39003",
+      "featureTag": "d56439e1cda9a48f",
+      "regionIdxs": [30],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "389763b1-2bb2-498c-a0f2-513c47cfb25c",
+      "featureTag": "d58ed99f1bfbc007",
+      "regionIdxs": [22],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "a66a68fb-2080-4a06-85d9-3edac2d7cf95",
+      "featureTag": "d5e41919b89ff6f7",
+      "regionIdxs": [6],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "515f8d08-31ff-438e-89d3-180aa72ce137",
+      "featureTag": "d67cc9c85e342ac0",
+      "regionIdxs": [10, 11, 12],
+      "featureType": "undercut_filleted_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "3ce02931-1a5d-4ace-bca0-820b2d3859e0",
+      "featureTag": "d90cdae6570a7d95",
+      "regionIdxs": [13],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "45d53ab4-8f4c-4a9e-bb42-b904b80dae28",
+      "featureTag": "d9318f8fb2ff6bee",
+      "regionIdxs": [37, 38],
+      "featureType": "blind_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "6ab4c140-e082-42f5-a7f4-6d0419d61c3b",
+      "featureTag": "d9419e6e8231e880",
+      "regionIdxs": [10, 11, 12],
+      "featureType": "undercut_filleted_tslot",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "c24acc12-ff38-405f-974d-8a40f4c14fed",
+      "featureTag": "daabbc6c9d2b28cd",
+      "regionIdxs": [47, 48, 50, 51, 52],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "2629860f-7956-4b4c-ae4d-4f609d282619",
+      "featureTag": "db0f8745fe454862",
+      "regionIdxs": [34, 35],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "ed7eb025-740a-4f49-ae28-1a1d24f2bce6",
+      "featureTag": "dcb6fcbb987f430f",
+      "regionIdxs": [30],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "04245acc-7cd0-41c2-8ea9-faabc751cd8a",
+      "featureTag": "dce19c78e6d15e87",
+      "regionIdxs": [22],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "e16ea819-8977-41f3-a585-e24810da945a",
+      "featureTag": "dd36dbf383759577",
+      "regionIdxs": [6],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "c2d021c4-a67e-44cc-b429-f22677601002",
+      "featureTag": "e05f9dc021e01c15",
+      "regionIdxs": [13],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "913c2ced-4fd4-4c6c-bf5d-64fcc81349a9",
+      "featureTag": "e8d730ab9f253c4f",
+      "regionIdxs": [5, 9],
+      "featureType": "undercut_tslot",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "afc595d7-207f-4a3c-9e26-34a0d39ae4bf",
+      "featureTag": "ee087277cfa99242",
+      "regionIdxs": [27],
+      "featureType": "slanted_face",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "34179e88-a841-46a4-bcf8-48860c07a4ba",
+      "featureTag": "f51ef64e2e6437ec",
+      "regionIdxs": [45],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "5db4d985-fc5b-4d08-9554-8ce467ca4ef6",
+      "featureTag": "f59ed586195a8a54",
+      "regionIdxs": [21],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "32918a94-06a2-459a-b47d-2bd00118c925",
+      "featureTag": "f7f278a0302a879a",
+      "regionIdxs": [50],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "0f4133a5-7db8-4cf3-bc6c-5f176d5916c9",
+      "featureTag": "f8c79752b7c510f2",
+      "regionIdxs": [26],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "ff8cd60c-66ba-489f-aa8b-8ec9f0064101",
+      "featureTag": "fc71b927f939d66c",
+      "regionIdxs": [45],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "9090e715-e97f-4b50-a386-546e6a835571",
+      "featureTag": "fcf1985fe43028d4",
+      "regionIdxs": [21],
+      "featureType": "through_hole",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "a135008c-f4f9-4d05-afbc-50f560a7ccaa",
+      "featureTag": "ff453b79fb00261a",
+      "regionIdxs": [50],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "8cdeb814-8ce3-487c-9dcb-4b9ca64b2f2f",
+      "featureTag": "ff897cfab096ce1c",
+      "regionIdxs": [14, 15, 16],
+      "featureType": "undercut_filleted_tslot",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "candidateDirections": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "discoveredDirections": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0.7071067811865476,
+      "y": 0.7071067811865476,
+      "z": 0
+    },
+    {
+      "x": 0.7071067811865476,
+      "y": -0.7071067811865476,
+      "z": 0
+    },
+    {
+      "x": -0.7071067811865476,
+      "y": 0.7071067811865476,
+      "z": 0
+    },
+    {
+      "x": -0.7071067811865476,
+      "y": -0.7071067811865476,
+      "z": 0
+    }
+  ],
+  "addedDirections": [],
+  "directionZBounds": [
+    {
+      "direction": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "zMin": 51.05399999999981,
+      "zMax": 127.25400000000023
+    },
+    {
+      "direction": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "zMin": -127.25400000000023,
+      "zMax": -51.05399999999981
+    },
+    {
+      "direction": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "zMin": -376.2375,
+      "zMax": -186.23731752081
+    },
+    {
+      "direction": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "zMin": 186.23731752081,
+      "zMax": 376.2375
+    }
+  ],
+  "boundingBox": {
+    "lower": {
+      "x": 186.23731752081,
+      "y": 68.2625,
+      "z": 51.05399999999981
+    },
+    "upper": {
+      "x": 376.2375,
+      "y": 373.06249999999994,
+      "z": 127.25400000000023
+    }
+  },
+  "turnability": {
+    "kind": "NoAxis"
+  },
+  "turning": {
+    "kind": "BelowThreshold",
+    "axis": {
+      "direction": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "location": {
+        "x": 300.0374999999136,
+        "y": 277.8125000000025,
+        "z": 0
+      },
+      "radial": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "turnability": 0.23898264220564425
+  },
+  "meshPointCount": 6568,
+  "meshTriangleCount": 13180,
+  "thumbnailUrl": null,
+  "meshStlUrl": null,
+  "meshGlbUrl": null
+}

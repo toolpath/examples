@@ -3,12 +3,13 @@
 Small, runnable examples for the [Toolpath API](https://developers.toolpath.com/) and the
 Toolpath packages published from [toolpath/ui-packages](https://github.com/toolpath/ui-packages).
 
-| Example                          | What it shows                                                                                                                                                           | Needs an API key |
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| [`typescript/`](typescript/)     | Analyzing a STEP file with [`@toolpath/api`](https://www.npmjs.com/package/@toolpath/api): create a part, upload, wait for the job, fetch datasheets, print the report. | Yes              |
-| [`python/`](python/)             | The same flow with the `toolpath` Python SDK.                                                                                                                           | Yes              |
-| [`react-viewer/`](react-viewer/) | A local Vite app for [`@toolpath/viewer`](https://www.npmjs.com/package/@toolpath/viewer): procedural parts, stock, section, measure, explode and sharp corners.        | No               |
-| [`multi-body/`](multi-body/)     | Uploading a CAD file of several solid bodies with `@toolpath/api`, and drawing them together with `@toolpath/viewer`.                                                   | Yes              |
+| Example                            | What it shows                                                                                                                                                           | Needs an API key |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| [`typescript/`](typescript/)       | Analyzing a STEP file with [`@toolpath/api`](https://www.npmjs.com/package/@toolpath/api): create a part, upload, wait for the job, fetch datasheets, print the report. | Yes              |
+| [`python/`](python/)               | The same flow with the `toolpath` Python SDK.                                                                                                                           | Yes              |
+| [`react-viewer/`](react-viewer/)   | A local Vite app for [`@toolpath/viewer`](https://www.npmjs.com/package/@toolpath/viewer): procedural parts, stock, section, measure, explode and sharp corners.        | No               |
+| [`multi-body/`](multi-body/)       | Uploading a CAD file of several solid bodies with `@toolpath/api`, and drawing them together with `@toolpath/viewer`.                                                   | Yes              |
+| [`tool-matching/`](tool-matching/) | Which tools in a tool library make a part, and how each is used, with `@toolpath/tool-matching`. Three sample parts, or upload your own.                                | For uploads only |
 
 ## Prerequisites
 
@@ -38,6 +39,9 @@ pnpm --filter @toolpath/example-react-viewer dev
 
 # Multi-body: copy multi-body/.env.example to multi-body/.env, set your key, then
 pnpm --filter @toolpath/example-multi-body dev
+
+# Tool matching: sample parts need no key; set one in tool-matching/.env to upload your own
+pnpm --filter @toolpath/example-tool-matching dev
 ```
 
 Each example's README has the details, including Windows commands.

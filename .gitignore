@@ -14,3 +14,5 @@ multi-body/playwright-report/
 !**/.env.example
 
 *.DS_Store
+tool-matching/test-results/
+tool-matching/playwright-report/

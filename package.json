@@ -24,5 +24,12 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.1.1",
     "prettier": "3.6.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "@toolpath/example-tool-matching>@toolpath/tool-matching": "link:../toolpath_services/public-packages/tool-matching",
+      "@toolpath/example-tool-matching>@toolpath/tool-support": "link:../toolpath_services/public-packages/tool-support",
+      "@toolpath/example-tool-matching>@toolpath/api": "link:../toolpath_services/public-packages/sdk-typescript"
+    }
   }
 }
