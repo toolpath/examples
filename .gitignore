@@ -8,6 +8,8 @@ react-viewer/test-results/
 react-viewer/playwright-report/
 multi-body/test-results/
 multi-body/playwright-report/
+plan-spec/test-results/
+plan-spec/playwright-report/
 
 # Never commit environment files. Keep documented templates trackable.
 **/*.env*

@@ -1,0 +1,729 @@
+{
+  "partId": "00000000-0000-4000-8000-000000000001",
+  "filename": "cube.step",
+  "reportId": "00000000-0000-4000-8000-000000000002",
+  "jobId": "00000000-0000-4000-8000-000000000003",
+  "kernelVersion": "0.36.0",
+  "preparationId": "3f86ff049e2b9162",
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "regions": [
+    {
+      "idx": 0,
+      "splitOrigin": 0,
+      "shapeKind": "Plane",
+      "area": 2090.3184,
+      "triangleStart": 0,
+      "triangleEnd": 2
+    },
+    {
+      "idx": 1,
+      "splitOrigin": 1,
+      "shapeKind": "Plane",
+      "area": 2090.3184,
+      "triangleStart": 2,
+      "triangleEnd": 4
+    },
+    {
+      "idx": 2,
+      "splitOrigin": 2,
+      "shapeKind": "Plane",
+      "area": 2090.3184,
+      "triangleStart": 4,
+      "triangleEnd": 6
+    },
+    {
+      "idx": 3,
+      "splitOrigin": 3,
+      "shapeKind": "Plane",
+      "area": 2090.3184,
+      "triangleStart": 6,
+      "triangleEnd": 8
+    },
+    {
+      "idx": 4,
+      "splitOrigin": 4,
+      "shapeKind": "Plane",
+      "area": 2090.3184,
+      "triangleStart": 8,
+      "triangleEnd": 10
+    },
+    {
+      "idx": 5,
+      "splitOrigin": 5,
+      "shapeKind": "Plane",
+      "area": 2090.3184,
+      "triangleStart": 10,
+      "triangleEnd": 12
+    }
+  ],
+  "features": [
+    {
+      "featureId": "00000000-0000-4000-8000-000000000004",
+      "featureTag": "44f9e9d0eccaea",
+      "regionIdxs": [2],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000005",
+      "featureTag": "93832a3500af1f9",
+      "regionIdxs": [1],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000006",
+      "featureTag": "d3fcc183450242c",
+      "regionIdxs": [5],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000007",
+      "featureTag": "1031bc714dc1f5aa",
+      "regionIdxs": [2],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000008",
+      "featureTag": "1449730b555b342a",
+      "regionIdxs": [2],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000009",
+      "featureTag": "2b1f11913186962c",
+      "regionIdxs": [4],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000010",
+      "featureTag": "366627ce9a0fa8a8",
+      "regionIdxs": [1],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000011",
+      "featureTag": "492d8ab3fc766b1b",
+      "regionIdxs": [3],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000012",
+      "featureTag": "4b2f0d782ee56079",
+      "regionIdxs": [1],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000013",
+      "featureTag": "50271481fa2d6ecc",
+      "regionIdxs": [4],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000014",
+      "featureTag": "53be44986daae47b",
+      "regionIdxs": [2],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000015",
+      "featureTag": "543ecb1c01c6ad4c",
+      "regionIdxs": [4],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000016",
+      "featureTag": "57f123c6391f9a66",
+      "regionIdxs": [0, 1, 2, 3],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000017",
+      "featureTag": "58f78b07afe16fd9",
+      "regionIdxs": [1],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000018",
+      "featureTag": "604a4de17ab70e59",
+      "regionIdxs": [1],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000019",
+      "featureTag": "6c74fbc9fd444945",
+      "regionIdxs": [1, 3, 4, 5],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000020",
+      "featureTag": "70358855c576afc5",
+      "regionIdxs": [1, 3, 4, 5],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000021",
+      "featureTag": "7a7336794e14604a",
+      "regionIdxs": [3],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000022",
+      "featureTag": "8922e2c4a8e1e43d",
+      "regionIdxs": [5],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000023",
+      "featureTag": "8b246588db50d99b",
+      "regionIdxs": [3],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000024",
+      "featureTag": "98ece3185c4ce8fb",
+      "regionIdxs": [3],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000025",
+      "featureTag": "a03fa5f22722877b",
+      "regionIdxs": [3],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000026",
+      "featureTag": "b29285235d337695",
+      "regionIdxs": [0, 2, 4, 5],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000027",
+      "featureTag": "b48d3afa555b7f3d",
+      "regionIdxs": [4],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000028",
+      "featureTag": "b8fcdeff59abb348",
+      "regionIdxs": [0],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000029",
+      "featureTag": "bf69e533b5c103e6",
+      "regionIdxs": [0, 1, 2, 3],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000030",
+      "featureTag": "c04fa1d9248151c8",
+      "regionIdxs": [0],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000031",
+      "featureTag": "cb19bd9987bc52bd",
+      "regionIdxs": [5],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000032",
+      "featureTag": "d03c6460a1567c88",
+      "regionIdxs": [0],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000033",
+      "featureTag": "d1d211b2e264fcd9",
+      "regionIdxs": [0],
+      "featureType": "face",
+      "machiningDirection": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000034",
+      "featureTag": "d3ca04956ed3ad15",
+      "regionIdxs": [0, 2, 4, 5],
+      "featureType": "profile",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000035",
+      "featureTag": "d4541afaa8efbb08",
+      "regionIdxs": [0],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000036",
+      "featureTag": "e92836bc52ac27ac",
+      "regionIdxs": [4],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "axis": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000037",
+      "featureTag": "f021c08a50632b5d",
+      "regionIdxs": [5],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000038",
+      "featureTag": "f439772457fc69dd",
+      "regionIdxs": [5],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "axis": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "featureId": "00000000-0000-4000-8000-000000000039",
+      "featureTag": "f8f2371006172c6a",
+      "regionIdxs": [2],
+      "featureType": "wall",
+      "machiningDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "axis": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      }
+    }
+  ],
+  "candidateDirections": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "discoveredDirections": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    }
+  ],
+  "addedDirections": [],
+  "directionZBounds": null,
+  "boundingBox": {
+    "lower": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "upper": {
+      "x": 45.72,
+      "y": 45.72,
+      "z": 45.72
+    }
+  },
+  "turnability": {
+    "kind": "NoAxis"
+  },
+  "turning": {
+    "kind": "NoAxis"
+  },
+  "meshPointCount": 8,
+  "meshTriangleCount": 12,
+  "thumbnailUrl": "https://storage.example.com/parts/00000000-0000-4000-8000-000000000001/thumbnail.png",
+  "meshStlUrl": "https://storage.example.com/parts/00000000-0000-4000-8000-000000000001/reports/00000000-0000-4000-8000-000000000002/mesh.stl",
+  "meshGlbUrl": "https://storage.example.com/parts/00000000-0000-4000-8000-000000000001/reports/00000000-0000-4000-8000-000000000002/mesh.glb"
+}

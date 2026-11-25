@@ -9,15 +9,16 @@ Toolpath packages published from [toolpath/ui-packages](https://github.com/toolp
 | [`python/`](python/)             | The same flow with the `toolpath` Python SDK.                                                                                                                           | Yes              |
 | [`react-viewer/`](react-viewer/) | A local Vite app for [`@toolpath/viewer`](https://www.npmjs.com/package/@toolpath/viewer): procedural parts, stock, section, measure, explode and sharp corners.        | No               |
 | [`multi-body/`](multi-body/)     | Uploading a CAD file of several solid bodies with `@toolpath/api`, and drawing them together with `@toolpath/viewer`.                                                   | Yes              |
+| [`plan-spec/`](plan-spec/)       | Planning a part by region: a draft with `@toolpath/plan`, sent as an experimental plan spec through `@toolpath/api`, and painted by setup with `@toolpath/viewer`.      | Yes              |
 
 ## Prerequisites
 
-- **A Toolpath API key** for `typescript/`, `python/` and `multi-body/`. See the
+- **A Toolpath API key** for `typescript/`, `python/`, `multi-body/` and `plan-spec/`. See the
   [authentication guide](https://developers.toolpath.com/authentication). Keep it in your
   environment (`TOOLPATH_API_KEY`); each example's `.env.example` lists the variables it reads.
   Never commit a key.
-- **Node.js and pnpm** for `typescript/`, `react-viewer/` and `multi-body/`, at the versions in
-  `.tool-versions`.
+- **Node.js and pnpm** for `typescript/`, `react-viewer/`, `multi-body/` and `plan-spec/`, at the
+  versions in `.tool-versions`.
 - **Python 3.11+ and [uv](https://docs.astral.sh/uv/)** for `python/`.
 
 ## Run them
@@ -38,6 +39,10 @@ pnpm --filter @toolpath/example-react-viewer dev
 
 # Multi-body: copy multi-body/.env.example to multi-body/.env, set your key, then
 pnpm --filter @toolpath/example-multi-body dev
+
+# Plan spec: copy plan-spec/.env.example to plan-spec/.env, set your key, then
+pnpm --filter @toolpath/example-plan-spec build
+pnpm --filter @toolpath/example-plan-spec exec vite preview
 ```
 
 Each example's README has the details, including Windows commands.
