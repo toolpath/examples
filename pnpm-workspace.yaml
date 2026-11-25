@@ -2,3 +2,4 @@ packages:
   - typescript
   - react-viewer
   - multi-body
+  - plan-spec

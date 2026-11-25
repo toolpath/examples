@@ -1,0 +1,469 @@
+{
+  "partId": "00000000-0000-4000-8000-000000000001",
+  "planId": "00000000-0000-4000-8000-000000000040",
+  "jobId": "00000000-0000-4000-8000-000000000041",
+  "kernelVersion": "0.36.0",
+  "material": "Aluminum",
+  "stock": {
+    "input": {
+      "mode": "automaticFlatBar"
+    },
+    "resolved": {
+      "shape": "box",
+      "frame": {
+        "location": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "axis": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        "refDirection": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "lower": {
+        "x": -2.539999999999999,
+        "y": -2.539999999999999,
+        "z": -6.35
+      },
+      "upper": {
+        "x": 48.26,
+        "y": 48.26,
+        "z": 50.8
+      }
+    }
+  },
+  "workholding": "thinAir",
+  "spoilboardHeight": null,
+  "toolLibraries": [],
+  "tools": {
+    "8d40429d9449ac48": {
+      "key": "8d40429d9449ac48",
+      "source": {
+        "kind": "synthesized"
+      },
+      "assembly": {
+        "tool": {
+          "type": "solid",
+          "kind": "FlatEndmill",
+          "name": "FlatSynth d19.0500 l47.6250",
+          "diameter": 19.049999999999997,
+          "fluteLength": 47.625,
+          "fluteCount": 3
+        },
+        "holder": null,
+        "collet": null,
+        "stickout": 47.625
+      }
+    }
+  },
+  "level": "planned",
+  "issues": [],
+  "setups": [
+    {
+      "idx": 0,
+      "direction": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "actions": [
+        {
+          "actionId": "00000000-0000-4000-8000-000000000042",
+          "idx": 0,
+          "intent": "Rough",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["d3fcc183450242c"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 2910.625599264582,
+            "stepdown": 14.007352941176476,
+            "stepover": 16.192499999999995
+          }
+        },
+        {
+          "actionId": "00000000-0000-4000-8000-000000000043",
+          "idx": 1,
+          "intent": "Rough",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["44f9e9d0eccaea"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 3638.281999080728,
+            "stepdown": 45.72,
+            "stepover": 3.8099999999999996
+          }
+        },
+        {
+          "actionId": "00000000-0000-4000-8000-000000000044",
+          "idx": 2,
+          "intent": "Finish",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["d3fcc183450242c"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 2910.625599264582,
+            "stepdown": 2.3812499999999996,
+            "stepover": 16.192499999999995
+          }
+        },
+        {
+          "actionId": "00000000-0000-4000-8000-000000000045",
+          "idx": 3,
+          "intent": "FinishWall",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["44f9e9d0eccaea"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 2182.9691994484365,
+            "stepdown": 45.72,
+            "stepover": 0.5714999999999999
+          }
+        }
+      ],
+      "unmachined": []
+    },
+    {
+      "idx": 1,
+      "direction": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "actions": [
+        {
+          "actionId": "00000000-0000-4000-8000-000000000046",
+          "idx": 0,
+          "intent": "Rough",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["93832a3500af1f9", "492d8ab3fc766b1b"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 3638.281999080728,
+            "stepdown": 45.72,
+            "stepover": 3.8099999999999996
+          }
+        },
+        {
+          "actionId": "00000000-0000-4000-8000-000000000047",
+          "idx": 1,
+          "intent": "FinishWall",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["93832a3500af1f9", "492d8ab3fc766b1b"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 2182.9691994484365,
+            "stepdown": 45.72,
+            "stepover": 0.5714999999999999
+          }
+        }
+      ],
+      "unmachined": []
+    },
+    {
+      "idx": 2,
+      "direction": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      },
+      "actions": [
+        {
+          "actionId": "00000000-0000-4000-8000-000000000048",
+          "idx": 0,
+          "intent": "Rough",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["2b1f11913186962c"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 3638.281999080728,
+            "stepdown": 45.72,
+            "stepover": 3.8099999999999996
+          }
+        },
+        {
+          "actionId": "00000000-0000-4000-8000-000000000049",
+          "idx": 1,
+          "intent": "FinishWall",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["2b1f11913186962c"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 2182.9691994484365,
+            "stepdown": 45.72,
+            "stepover": 0.5714999999999999
+          }
+        }
+      ],
+      "unmachined": []
+    },
+    {
+      "idx": 3,
+      "direction": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "actions": [
+        {
+          "actionId": "00000000-0000-4000-8000-000000000050",
+          "idx": 0,
+          "intent": "Rough",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["b8fcdeff59abb348"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 3638.281999080728,
+            "stepdown": 45.72,
+            "stepover": 3.8099999999999996
+          }
+        },
+        {
+          "actionId": "00000000-0000-4000-8000-000000000051",
+          "idx": 1,
+          "intent": "FinishWall",
+          "toolName": "FlatSynth d19.0500 l47.6250",
+          "featureTags": ["b8fcdeff59abb348"],
+          "toolKey": "8d40429d9449ac48",
+          "tool": {
+            "key": "8d40429d9449ac48",
+            "kind": "FlatEndmill",
+            "name": "FlatSynth d19.0500 l47.6250",
+            "diameter": 19.049999999999997,
+            "stickout": 47.625,
+            "fluteCount": 3,
+            "fluteLength": 47.625
+          },
+          "feedSpeed": {
+            "spindleSpeed": 5092.958178940652,
+            "cuttingFeedRate": 2182.9691994484365,
+            "stepdown": 45.72,
+            "stepover": 0.5714999999999999
+          }
+        }
+      ],
+      "unmachined": []
+    }
+  ],
+  "setupPlan": {
+    "setups": [
+      {
+        "orientations": [
+          {
+            "direction": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "features": ["d3fcc183450242c", "44f9e9d0eccaea"]
+          }
+        ]
+      },
+      {
+        "orientations": [
+          {
+            "direction": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "features": ["93832a3500af1f9", "492d8ab3fc766b1b"]
+          }
+        ]
+      },
+      {
+        "orientations": [
+          {
+            "direction": {
+              "x": 0,
+              "y": -1,
+              "z": 0
+            },
+            "features": ["2b1f11913186962c"]
+          }
+        ]
+      },
+      {
+        "orientations": [
+          {
+            "direction": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            },
+            "features": ["b8fcdeff59abb348"]
+          }
+        ]
+      }
+    ]
+  },
+  "planSpec": {
+    "preparationId": "3f86ff049e2b9162",
+    "skippedRegions": [],
+    "setups": [
+      {
+        "direction": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        "exclusiveRegions": [],
+        "features": [
+          {
+            "regions": [5],
+            "featureType": "face"
+          },
+          {
+            "regions": [2],
+            "featureType": "wall"
+          }
+        ]
+      },
+      {
+        "direction": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "exclusiveRegions": [],
+        "features": [
+          {
+            "regions": [1],
+            "featureType": "wall"
+          },
+          {
+            "regions": [3],
+            "featureType": "wall"
+          }
+        ]
+      },
+      {
+        "direction": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "exclusiveRegions": [],
+        "features": [
+          {
+            "regions": [4],
+            "featureType": "wall"
+          }
+        ]
+      },
+      {
+        "direction": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "exclusiveRegions": [],
+        "features": [
+          {
+            "regions": [0],
+            "featureType": "wall"
+          }
+        ]
+      }
+    ],
+    "additionalDirections": []
+  },
+  "doneRegions": null,
+  "trimmedFeatures": []
+}

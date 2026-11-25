@@ -1,0 +1,146 @@
+{
+  "jobId": "00000000-0000-4000-8000-000000000041",
+  "partId": "00000000-0000-4000-8000-000000000001",
+  "planId": "00000000-0000-4000-8000-000000000040",
+  "material": "Aluminum",
+  "toolCrib": [
+    {
+      "kind": "implicit",
+      "faceMill": {
+        "enabled": true,
+        "inch": {
+          "enabled": true
+        }
+      },
+      "flatEndmill": {
+        "enabled": true,
+        "inch": {
+          "enabled": true
+        }
+      },
+      "bullNose": {
+        "enabled": true,
+        "inch": {
+          "enabled": true
+        }
+      },
+      "ballEndmill": {
+        "enabled": true,
+        "inch": {
+          "enabled": true
+        }
+      },
+      "drill": {
+        "enabled": true,
+        "inch": {
+          "enabled": true,
+          "maxDiameter": 50.8
+        },
+        "metric": {
+          "enabled": true,
+          "maxDiameter": 50
+        }
+      },
+      "chamfer": {
+        "enabled": true,
+        "inch": {
+          "enabled": true
+        }
+      },
+      "keyseat": {
+        "enabled": true,
+        "inch": {
+          "enabled": true
+        }
+      },
+      "tap": {
+        "enabled": true,
+        "inch": {
+          "enabled": true
+        }
+      },
+      "cornerRounding": {
+        "enabled": false
+      }
+    }
+  ],
+  "machine": null,
+  "setupPlan": null,
+  "doneRegions": null,
+  "planSpec": {
+    "preparationId": "3f86ff049e2b9162",
+    "setups": [
+      {
+        "direction": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        "features": [
+          {
+            "regions": [2],
+            "featureType": "wall"
+          },
+          {
+            "regions": [5],
+            "featureType": "face"
+          }
+        ]
+      },
+      {
+        "direction": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "features": [
+          {
+            "regions": [1],
+            "featureType": "wall"
+          },
+          {
+            "regions": [3],
+            "featureType": "wall"
+          }
+        ]
+      },
+      {
+        "direction": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "features": [
+          {
+            "regions": [4],
+            "featureType": "wall"
+          }
+        ]
+      },
+      {
+        "direction": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "features": [
+          {
+            "regions": [0],
+            "featureType": "wall"
+          }
+        ]
+      }
+    ],
+    "additionalDirections": []
+  },
+  "stock": {
+    "input": {
+      "mode": "automaticFlatBar"
+    },
+    "resolved": null
+  },
+  "fallbackTools": false,
+  "workholding": "thinAir",
+  "spoilboardHeight": null,
+  "status": "queued"
+}
